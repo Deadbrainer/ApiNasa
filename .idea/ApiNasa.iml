@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="WEB_MODULE" version="4">
+  <component name="NewModuleRootManager">
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/ApiNasa/app" isTestSource="false" packagePrefix="App\" />
+      <sourceFolder url="file://$MODULE_DIR$/ApiNasa/database/factories" isTestSource="false" packagePrefix="Database\Factories\" />
+      <sourceFolder url="file://$MODULE_DIR$/ApiNasa/database/seeders" isTestSource="false" packagePrefix="Database\Seeders\" />
+      <sourceFolder url="file://$MODULE_DIR$/ApiNasa/tests" isTestSource="true" packagePrefix="Tests\" />
+      <sourceFolder url="file://$MODULE_DIR$/spec" isTestSource="true" />
+      <sourceFolder url="file://$MODULE_DIR$/tests" isTestSource="true" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/theseer/tokenizer" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/var-dumper" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/polyfill-iconv" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/polyfill-php73" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/polyfill-php81" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/translation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/finder" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/polyfill-php72" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/css-selector" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/polyfill-intl-grapheme" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/routing" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/polyfill-intl-normalizer" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/polyfill-php80" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/deprecation-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/event-dispatcher-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/polyfill-intl-idn" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/http-foundation" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/http-kernel" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/string" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/polyfill-ctype" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/service-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/translation" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/error-handler" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/console" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/mime" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/process" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/symfony/polyfill-mbstring" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phpunit/php-invoker" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phpunit/php-file-iterator" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phpunit/php-timer" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phpunit/php-text-template" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phpunit/php-code-coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phpunit/phpunit" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phpspec/prophecy" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phar-io/version" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phar-io/manifest" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/myclabs/deep-copy" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/monolog/monolog" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/mockery/mockery" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/laravel/sail" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/laravel/sanctum" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/laravel/framework" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/laravel/serializable-closure" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/laravel/tinker" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/egulias/email-validator" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/dflydev/dot-access-data" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/vlucas/phpdotenv" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/ramsey/uuid" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/ramsey/collection" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/nesbot/carbon" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/league/mime-type-detection" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/league/config" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/league/commonmark" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/league/flysystem" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/facade/ignition-contracts" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/facade/flare-client-php" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/facade/ignition" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/nikic/php-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/nette/schema" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/nette/utils" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/brick/math" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/asm89/stack-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/voku/portable-ascii" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/opis/closure" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/filp/whoops" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/psy/psysh" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/psr/event-dispatcher" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/psr/log" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/psr/simple-cache" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/psr/container" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/psr/http-client" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/psr/http-message" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/psr/http-factory" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/composer" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/graham-campbell/result-type" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phpdocumentor/reflection-docblock" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phpdocumentor/reflection-common" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phpdocumentor/type-resolver" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/dragonmantank/cron-expression" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/tijsverkoyen/css-to-inline-styles" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/swiftmailer/swiftmailer" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/nunomaduro/collision" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/guzzlehttp/guzzle" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/guzzlehttp/promises" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/guzzlehttp/psr7" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/webmozart/assert" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/recursion-context" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/comparator" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/object-reflector" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/version" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/lines-of-code" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/complexity" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/type" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/code-unit-reverse-lookup" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/object-enumerator" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/global-state" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/cli-parser" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/environment" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/resource-operations" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/exporter" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/diff" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/sebastian/code-unit" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/ralouphie/getallheaders" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/phpoption/phpoption" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/fruitcake/laravel-cors" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/hamcrest/hamcrest-php" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/fakerphp/faker" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/doctrine/instantiator" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/doctrine/inflector" />
+      <excludeFolder url="file://$MODULE_DIR$/ApiNasa/vendor/doctrine/lexer" />
+    </content>
+    <orderEntry type="inheritedJdk" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>

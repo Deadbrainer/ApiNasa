@@ -57,37 +57,66 @@ export default {
                     text: 'Name of Disaster',
                     align: 'start',
                     value: 'title',
-                    width: "400px"
+                    width: '400px'
                 },
-                { text: 'Date', value: 'geometry.0.date', width: "200px" },
-                { text: 'Coordinates', value: 'geometry.0.coordinates', width: "200px" },
-                { text: 'Categories', value: 'categories.0.title', width: "200px", filter: this.categoryFilter },
+                {
+                    text: 'Date',
+                    value: 'geometry.0.date',
+                    width: '200px'
+                },
+                {
+                    text: 'Coordinates',
+                    value: 'geometry.0.coordinates',
+                    width: '200px'
+                },
+                {
+                    text: 'Categories',
+                    value: 'categories.0.title',
+                    width: '200px',
+                    filter: this.categoryFilter
+                },
             ],
             rows: [],
             categoriesFilterValue: null,
             categoriesList: [
-                {text: "All", value: null},
-                {text: "Drought", value: 'Drought'},
-                {text: "Dust and Haze", value: 'Dust and Haze'},
-                {text: "Earthquakes", value: 'Earthquakes'},
-                {text: "Floods", value: 'Floods'},
-                {text: "Landslides", value: 'Landslides'},
-                {text: "Manmade", value: 'Manmade'},
-                {text: "Sea and Lake Ice", value: 'Sea and Lake Ice'},
-                {text: "Severe Storms", value: 'Severe Storms'},
-                {text: "Snow", value: 'Snow'},
-                {text: "Temperature Extremes", value: 'Temperature Extremes'},
-                {text: "Volcanoes", value: 'Volcanoes'},
-                {text: "Water Color", value: 'Water Color'},
-                {text: "Wildfires", value: 'Wildfires'},
+                {text: 'All', value: null },
+                {text: 'Drought', value: 'Drought'},
+                {text: 'Dust and Haze', value: 'Dust and Haze'},
+                {text: 'Earthquakes', value: 'Earthquakes'},
+                {text: 'Floods', value: 'Floods'},
+                {text: 'Landslides', value: 'Landslides'},
+                {text: 'Manmade', value: 'Manmade'},
+                {text: 'Sea and Lake Ice', value: 'Sea and Lake Ice'},
+                {text: 'Severe Storms', value: 'Severe Storms'},
+                {text: 'Snow', value: 'Snow'},
+                {text: 'Temperature Extremes', value: 'Temperature Extremes'},
+                {text: 'Volcanoes', value: 'Volcanoes'},
+                {text: 'Water Color', value: 'Water Color'},
+                {text: 'Wildfires', value: 'Wildfires'},
             ],
         }
     },
+
+    /**
+     * Methods
+     */
     methods: {
-        loadEvents(){
-            axios.get("/ApiNasa").then(({ data }) => (this.rows = data.data.events));
+
+        /**
+         * Get data about disasters
+         */
+        loadEvents () {
+            axios.get('/ApiNasa').then(({ data }) => {
+                this.rows = data.data.events
+            });
         },
-        categoryFilter(value) {
+
+        /**
+         * Filter for disasters categories
+         * @param value
+         * @returns {boolean}
+         */
+        categoryFilter (value) {
             if (!this.categoriesFilterValue) {
                 return true;
             }
@@ -95,7 +124,7 @@ export default {
             return value === this.categoriesFilterValue;
         }
     },
-    created() {
+    created () {
         this.loadEvents();
     }
 }

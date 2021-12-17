@@ -2122,77 +2122,90 @@ __webpack_require__.r(__webpack_exports__);
         text: 'Name of Disaster',
         align: 'start',
         value: 'title',
-        width: "400px"
+        width: '400px'
       }, {
         text: 'Date',
         value: 'geometry.0.date',
-        width: "200px"
+        width: '200px'
       }, {
         text: 'Coordinates',
         value: 'geometry.0.coordinates',
-        width: "200px"
+        width: '200px'
       }, {
         text: 'Categories',
         value: 'categories.0.title',
-        width: "200px",
+        width: '200px',
         filter: this.categoryFilter
       }],
       rows: [],
       categoriesFilterValue: null,
       categoriesList: [{
-        text: "All",
+        text: 'All',
         value: null
       }, {
-        text: "Drought",
+        text: 'Drought',
         value: 'Drought'
       }, {
-        text: "Dust and Haze",
+        text: 'Dust and Haze',
         value: 'Dust and Haze'
       }, {
-        text: "Earthquakes",
+        text: 'Earthquakes',
         value: 'Earthquakes'
       }, {
-        text: "Floods",
+        text: 'Floods',
         value: 'Floods'
       }, {
-        text: "Landslides",
+        text: 'Landslides',
         value: 'Landslides'
       }, {
-        text: "Manmade",
+        text: 'Manmade',
         value: 'Manmade'
       }, {
-        text: "Sea and Lake Ice",
+        text: 'Sea and Lake Ice',
         value: 'Sea and Lake Ice'
       }, {
-        text: "Severe Storms",
+        text: 'Severe Storms',
         value: 'Severe Storms'
       }, {
-        text: "Snow",
+        text: 'Snow',
         value: 'Snow'
       }, {
-        text: "Temperature Extremes",
+        text: 'Temperature Extremes',
         value: 'Temperature Extremes'
       }, {
-        text: "Volcanoes",
+        text: 'Volcanoes',
         value: 'Volcanoes'
       }, {
-        text: "Water Color",
+        text: 'Water Color',
         value: 'Water Color'
       }, {
-        text: "Wildfires",
+        text: 'Wildfires',
         value: 'Wildfires'
       }]
     };
   },
+
+  /**
+   * Methods
+   */
   methods: {
+    /**
+     * Get data about disasters
+     */
     loadEvents: function loadEvents() {
       var _this = this;
 
-      axios.get("/ApiNasa").then(function (_ref) {
+      axios.get('/ApiNasa').then(function (_ref) {
         var data = _ref.data;
-        return _this.rows = data.data.events;
+        _this.rows = data.data.events;
       });
     },
+
+    /**
+     * Filter for disasters categories
+     * @param value
+     * @returns {boolean}
+     */
     categoryFilter: function categoryFilter(value) {
       if (!this.categoriesFilterValue) {
         return true;
